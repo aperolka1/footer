@@ -1,3 +1,36 @@
 .footer-full {
   background-color: #1b414b;
+  border-top-left-radius: 24px;
+  border-top-right-radius: 24px;
+}
+
+.footer-logo {
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 17px;
+  letter-spacing: -0.03em;
+  text-align: left;
+}
+
+.footer-button-item {
+  height: 40px;
+  border-radius: 8px;
+  color: #fbfbfb;
+  background-color: ;
+}
+
+.footer-social-link-icon {
+  fill: #fbfbfb;
+}
+
+.footer-social-link-icon:hover,
+.footer-social-link-icon:focus {
+  fill: rgba(251, 251, 251, 0.8);
+}
+
+@media screen and (max-width: 767px) {
+  .footer-button-item {
+    width: 66px;
+  }
 }
